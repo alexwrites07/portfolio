@@ -14,8 +14,11 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill/Project</a></li>
+
           <li><a href="#experience">Experience</a></li>
           <li><a href="#contact">Contact</a></li>
+         
         </ul>
       </div>
     </nav>
@@ -30,7 +33,9 @@
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#skill" onclick="toggleMenu()">Skill/project</a></li>
+          <!-- <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> -->
+         
         </div>
       </div>
     </nav>
@@ -45,9 +50,17 @@
         <p class="section__text__p2">IIT(ISM) DHANBAD</p>
         <div class="btn-container">
           
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
-          </button>
+          </button> -->
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a>21je0760@iitism.ac.in</a></p>
+          </div>
           
         </div>
         <div id="socials-container">
@@ -69,7 +82,7 @@
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
-      <br><br>
+      
       <div class="section-container">
         <div class="section__pic-container">
           <!-- <img
@@ -91,22 +104,98 @@
               <p>Integrated M.Tech(Graduation)<br />in</p>
               <p>Applied Geophysics</p>
             </div>
-          </div>
+          </div><center>
           <div class="text-container">
             <p>
                 Hello, I'm Rhitam Nayek, a passionate and aspiring web developer ready to make waves in the digital realm. With a keen eye for design and a love for coding, I am dedicated to creating innovative and user-centric web experiences. Eager to learn and grow, I am constantly honing my skills to stay at the forefront of technology trends.
             </p>
           </div>
+        </center>
         </div>
       </div>
-      <img
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
-      />
+      /> -->
+   
     </section>
-    <br><br><br>
+
+    <br><br>
+    <section id="skill">
+      
+      <h1 class="title">SKILLS</h1>
+      <br>  <br>  <br>  <br>
+     <center>
+            <p><strong>Frontend - </strong>ReactJs, HTML, CSS, JavaScript, TailwindCSS, BootStrap</p>
+            <p><strong>Backend- </strong>NodeJs, PHP, ExpressJs</p>
+            <p><strong>Database- </strong>MySQL, Firebase, MongoDB</p>
+            <p><strong>Programming Language-</strong> C, C++, Java, Python</p>
+          </center>
+      <br>  <br>  <br>  <br>
+      <h1 class="title">PROJECTS</h1>
+      <br>  <br>  <br>  <br>
+      <div class="section-container">
+      
+        <div class="about-details-container kl">
+          <br>  <br>  <br>  <br>
+          <div class="text-container">
+            <h1>Compilo — A full stack, responsive Compiler and IDE
+              website
+              </h1>
+            <p>
+              A website made to help the users to write code and
+              run them in with a premium experience.
+                </p>
+                <p> Users can get the execution time, starting time and
+                  ending time and user get to see the compiling status
+                  every moment</p>
+                  <p>Tech Stacks: </p>
+                  <p>ReactJs,NodeJs,MongoDB,ExpressJs,
+                    CodeMirror,Bull</p><br>
+                    <a href="Github-https://github.com/alexwrites07/idecomp">Github Link</a><br> <br>  <br>  
+
+
+                    <h1>Picshow —Online Image Generating Website
+
+                      </h1>
+                    <p>
+                      It uses DALL-E API of openAI to generate the
+                      data/image.
+                        </p>
+                        <p>  The images are stored in a database so that users can
+                          see them whenever needed.
+                          </p>
+                          <p> Tech stack - ReactJs, ExpressJs, NodeJS, MongoDB, Cloudinary, TailwindCSS</p><br>
+                            <a href="https://github.com/alexwrites07/img_generator">Github Link</a><br> <br>  <br> 
+           
+                            <h1>Chatter — Online Chatting Website
+                              </h1>
+                            <p>
+                              A website that helps users to chat with the users
+                                </p>
+                                <p> 
+                                  Users can search the name of whom they want to chat
+                                  with and can chat with them
+                                  </p>
+                                  <p>Users can edit text with rich text editor</p>
+                                  <p>Tech Stacks: </p>
+                                  <p>ReactJs ExpressJs NodeJS MongoDB
+                                    Jodit-React TailwindCSS</p><br>
+                                
+                                    <a href="Github-https://github.com/alexwrites07/idecomp">Github Link</a><br>                    
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      /> -->
+    </section>
+    <br><br> <br><br>   <br><br> <br><br>   <br><br> <br><br>   <br><br>  <br><br> <br><br><br><br>  <br><br> <br><br><br><br>  
     <section id="experience">
      
       <h1 class="title">Experience/Achievement</h1>
@@ -114,6 +203,7 @@
         <div class="about-containers">
           <div class="details-container">
             <h2 class="experience-sub-title">EXPERIENCE</h2>
+            <br>
             <div class="article-container">
               <article>
                 <img
@@ -124,6 +214,17 @@
                 <div>
                   <h3>Amacle Studios</h3>
                   <p>Full Stack Web Development Intern</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Digilligence</h3>
+                  <p>Frontend Developer Intern</p>
                 </div>
               </article>
               <article>
@@ -145,25 +246,14 @@
                 />
                 <div>
                   <h3>LiveTalksISM (Podcast Club) </h3>
-                  <p>Content Head</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Electronics & IOT club</h3>
-                  <p>Member</p>
+                  <p>Operations Head</p>
                 </div>
               </article>
               
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Achievement</h2>
+            <h2 class="experience-sub-title">Achievement</h2><br>
             <div class="article-container">
               <article>
                 <img
@@ -213,15 +303,15 @@
           </div>
         </div>
       </div>
-      <img
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
-      />
+      /> -->
     </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
+
+      <!-- <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
@@ -240,19 +330,10 @@
           />
           <p><a href="https://www.linkedin.com">LinkedIn</a></p>
         </div>
-      </div>
-    </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </footer>
-    <script src="script.js"></script>
+      </div> -->
+   
+
+    <script src="script.js"></script> 
+
   </body>
 </html>
